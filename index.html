@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- --------------------------------------------------------------home Section---------------------------------------------------- -->
+    <div class="header">
+        <div id="home" class="container">
+            <nav>
+                <div class="name">Ashish Prajapati</div>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i id="close-menu" class="fa-solid fa-xmark hidden" onclick="closemenu()"></i>
+                </ul>
+                <i id="open-menu" class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="showcase">
+                <div class="showcase-text">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>
+                        I’m <span>Ashish Prajapati</span>, a passionate web developer and
+                        problem-solver.
+                        Explore my journey through innovative projects, creative designs, and technical skills
+                        crafted to bring ideas to life. Let’s build something amazing together!
+                    </p>
+                    <a href="#projects" class="btn">View My Work</a>
+                </div>
+                <div class="showcase-image">
+                    <img src="/My-Image.jpg" alt="Ashish Portfolio Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------About Section--------------------------------------------------------------- -->
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p>
+                Hi, I’m <span>Ashish Prajapati</span>, a B.Tech IT student and aspiring
+                <strong>Full Stack Web Developer</strong>. I enjoy building
+                modern, responsive, and user-friendly websites.
+            </p>
+            <p>
+                My skills include HTML, CSS, JavaScript, C++, Java, SQL, and DSA.
+                I’m passionate about solving problems, exploring new technologies,
+                and creating impactful projects that make a difference.
+            </p>
+            <p>
+                My goal is to work in software development at a top tech company
+                and grow as a developer while contributing to real-world projects.
+            </p>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------projects Section--------------------------------------------------------------->
+    <section id="projects">
+        <div class="projects-container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p>A responsive web app that fetches live weather data using APIs.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/victus-owner/Weather-App.git" target="_blank">View Code</a>
+                        <a href="https://victus-owner.github.io/Weather-App/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Currency Converter</h3>
+                    <p>A simple tool to convert between different currencies in real-time.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/victus-owner/currency_converter.git" target="_blank">View Code</a>
+                        <a href="https://victus-owner.github.io/currency_converter/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This personal portfolio website to showcase my skills and projects.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/victus-owner/Portfolio" target="_blank">View Code</a>
+                        <a href="#" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------------------------------------------skills--------------------------------------------------------------------------- -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <p>Here are the programming languages and technologies I work with:</p>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/128/174/174854.png" alt="HTML Logo">
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="CSS Logo">
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" alt="JavaScript Logo">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/128/6132/6132222.png" alt="C++ Logo">
+                <h3>C++</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/128/226/226777.png" alt="Java Logo">
+                <h3>Java</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/128/2772/2772128.png" alt="SQL Logo">
+                <h3>SQL</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------contact-------------------------------------------------------------------- -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Let's Work Together</h2>
+        <p id="para">Ready to start your next project? Let's create something amazing together.</p>
+
+        <div class="contact-container">
+            <!-- Left Info -->
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>I'm always open to discussing new opportunities, projects, or just having a conversation about
+                    technology and development.</p>
+
+                <div class="info-item">
+                    <img src="https://cdn-icons-png.flaticon.com/128/15047/15047587.png" alt="mail">
+                    <span>Email</span>
+                    <p>ashishprajapati0202@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3991/3991775.png" alt="linkedin">
+                    <span>LinkedIn</span>
+                    <p><a href="https://www.linkedin.com/in/ashish-prajapati-rdx" target="_blank">Ashish Prajapati</a>
+                    </p>
+                </div>
+                <div class="info-item">
+                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968866.png" alt="github">
+                    <span>GitHub</span>
+                    <p><a href="https://github.com/victus-owner" target="_blank">victus-owner</a></p>
+                </div>
+                <div class="info-item">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1865/1865269.png" alt="location">
+                    <span>Location</span>
+                    <p>Indore, India</p>
+                </div>
+            </div>
+
+            <!-- Right Form -->
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="50ed3367-33c6-40ea-9e1b-6f177106c305">
+                    <input type="text" placeholder="Full Name *" name="name" required>
+                    <input type="email" placeholder="Email Address *" name="email" required>
+                    <input type="text" placeholder="Subject *" name="subject">
+                    <textarea name="Message" rows="4" placeholder="Message *" required></textarea>
+                    <button type="submit"> <i class="fas fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------- Footer Section--------------------------------------------------------->
+        <footer class="footer">
+            <div class="footer-container">
+
+                <!-- Left Side -->
+                <div class="footer-about">
+                    <h2>🚀 Ashish Prajapati</h2>
+                    <p>Passionate Web Developer | Building responsive & modern websites with creativity and clean code.
+                    </p>
+                </div>
+
+                <!-- Middle (Links) -->
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right (Socials) -->
+                <div class="footer-social">
+                    <h3>Connect</h3>
+
+                    <a href="https://www.linkedin.com/in/ashish-prajapati-rdx" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/victus-owner" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+
+            </div>
+
+            <!-- Bottom -->
+            <div class="footer-bottom">
+                <p>© 2025 Ashish Prajapati || All Rights Reserved 💻</p>
+            </div>
+        </footer>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
