@@ -9,6 +9,9 @@ body{
   color: white;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 nav{
   display: flex;
@@ -387,6 +390,31 @@ nav #open-menu{
 .info-item a:hover {
   color: #2b8022;
 }
+
+
+
+
+/* Download cv */
+.btn-cv {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+ background: linear-gradient(45deg, #6a0dad, #9b59b6);
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-cv:hover {
+  background: linear-gradient(45deg, #9b59b6, #6a0dad);
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
 
 /* Right Form */
 .contact-form {
