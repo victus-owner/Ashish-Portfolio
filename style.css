@@ -52,13 +52,13 @@ nav ul li a::after {
   bottom: -4px; /* little below the text */
   width: 0;
   height: 2px;
-  background: #ffffff; /* change to any color you like */
+  background: #ffffff; 
   transition: width 0.3s ease-in-out;
 }
 
 /* on hover */
 nav ul li a:hover {
-  color: #1aff00; /* optional text color change */
+  color: #1aff00; 
 }
 
 nav ul li a:hover::after {
